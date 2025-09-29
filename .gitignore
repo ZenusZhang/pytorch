@@ -395,3 +395,10 @@ android/pytorch_android_torchvision/.cxx
 CLAUDE.local.md
 /test_*.py
 /debug_*.py
+
+
+# venv
+.venv
+libtorch_test
+models
+build_cpu

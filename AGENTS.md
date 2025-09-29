@@ -1,4 +1,3 @@
-- This is the only AGENTS.md, there are no recursive AGENTS.md
 - When you are working on a bug, first create a standalone file that
   reproduces the bug and verify it fails in the expected way.  Use this to
   test if your changes work.  Once the change is passing, find an appropriate
@@ -15,3 +14,6 @@
   - git reset --hard $(cat /tmp/orig_work.txt) # NB: reset to the LOCAL branch, do NOT fetch
   - git stash pop
   - Resolve conflicts if necessary
+
+- I'm working on writing aten kernels for RISCV-Vector platform, using libtorch as runtime env on qemu and cmodel.
+  - In this period, to get familiar the workflow, we should now execute the process on x86 platform.
